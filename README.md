@@ -1,27 +1,41 @@
 # Priyavrat Uniyal
 
-Backend engineer at BlackRock, building open-source AI/devtools projects on the side.
+I build backend systems and local-first tools around AI, memory, privacy, and developer workflow.
 
-I’m interested in systems where correctness, memory, reliability, and developer workflow matter.
+I like software that makes messy work easier to reason about: fewer repeated explanations, clearer failures, and more context kept close to the people using it.
 
-Currently building:
+## experiments
 
-- **Tuskbase** — shared decision memory for AI coding agents
-- **EchoTrace** — local-first observability for voice AI
-- **Koshika** — offline-first health report parser with on-device AI
+### [Tuskbase](https://github.com/priyavratuniyal/tuskbase)
 
-I like building painkillers over vitamins: tools that remove real friction, not just nice demos.
+Local-first memory for AI coding agents.
 
-## What I’m good at
+Agents can write code now. The fragile part is continuity: decisions, repo context, and the reason something exists disappear too easily between sessions.
 
-- Java, Spring Boot, Kafka, backend systems
-- Product-minded engineering
-- Taking ambiguous ideas from zero to working prototype
-- AI-assisted development workflows
-- Local-first and privacy-first product design
+### [EchoTrace](https://github.com/priyavratuniyal/echotrace)
 
-## What I’m looking for
+Local-first observability for voice AI.
 
-I’m looking to work with a high-ownership startup team building serious infrastructure, AI tooling, healthcare ops, fintech infra, or developer tools.
+Voice systems fail in layers: audio, transcription, prompts, model behavior, scoring, and glue code. EchoTrace is about making those failures inspectable.
 
-I want to work close to users, ship fast, and own real systems.
+### [Koshika](https://github.com/priyavratuniyal/koshika)
+
+Offline-first health report parsing with on-device AI.
+
+Health PDFs are useful, private, and annoying to reason through. Koshika explores making them searchable without casually uploading them somewhere.
+
+## recurring thoughts
+
+- local-first is underrated
+- memory is different from state
+- reliability beats clever prompts
+- privacy should be a default shape
+- good tools reduce repeated context-setting
+- boring infrastructure helps weird ideas survive
+- write down the decision before the system forgets why
+
+## default approach
+
+Boring pieces first: backend systems, local storage, simple protocols, small CLIs, and tools that can be inspected without ceremony.
+
+The stack matters less than whether the system stays understandable.
