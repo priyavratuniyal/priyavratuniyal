@@ -4,25 +4,15 @@ I build backend systems and local-first tools around AI, memory, privacy, and de
 
 I like software that makes messy work easier to reason about: fewer repeated explanations, clearer failures, and more context kept close to the people using it.
 
-## experiments
+## current experiments
 
-### [Tuskbase](https://github.com/priyavratuniyal/tuskbase)
+[Tuskbase](https://github.com/priyavratuniyal/tuskbase) - local-first decision memory for AI coding agents.
 
-Local-first memory for AI coding agents.
+Agents can write code now; the fragile part is continuity. Tuskbase keeps repo context, decisions, and “why this exists” close to the codebase.
 
-Agents can write code now. The fragile part is continuity: decisions, repo context, and the reason something exists disappear too easily between sessions.
+[EchoTrace](https://github.com/priyavratuniyal/echotrace) - chrome dev-tools for voice AI.
 
-### [EchoTrace](https://github.com/priyavratuniyal/echotrace)
-
-Local-first observability for voice AI.
-
-Voice systems fail in layers: audio, transcription, prompts, model behavior, scoring, and glue code. EchoTrace is about making those failures inspectable.
-
-### [Koshika](https://github.com/priyavratuniyal/koshika)
-
-Offline-first health report parsing with on-device AI.
-
-Health PDFs are useful, private, and annoying to reason through. Koshika explores making them searchable without casually uploading them somewhere.
+Voice systems fail across audio, transcripts, prompts, models, scoring, and glue code. EchoTrace makes those failures easier to inspect.
 
 ## recurring thoughts
 
